@@ -128,7 +128,7 @@ const deleteVideo = async (req, res) => {
 
     const video = await SolutionVideo.findOneAndDelete({
       problemId,
-      userId
+
     });
 
     console.log(video);
